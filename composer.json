@@ -1,0 +1,37 @@
+{
+    "name": "mikielis/gravatar",
+    "description": "Laravel package to retrieve gravatar url.",
+    "keywords": [
+        "gravatar",
+        "avatar",
+        "laravel"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kamil Mikielis",
+            "email": "kamil.mikielis@gmail.com",
+            "homepage": "http://mikielis.pl",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mikielis\\Gravatar\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mikielis\\Gravatar\\GravatarServiceProvider"
+            ],
+            "aliases": {
+                "Gravatar": "Mikielis\\Gravatar\\Facades\\Gravatar"
+            }
+        }
+    }
+}
