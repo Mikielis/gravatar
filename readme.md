@@ -6,7 +6,7 @@
 Pull in the package through Composer:
 
 ```php
-composer require --save mikielis/gravatar ~1.0
+composer require mikielis/gravatar ~1.0
 ```
 
 Or you can add the following to your composer.json file and then run command: `composer update`.
