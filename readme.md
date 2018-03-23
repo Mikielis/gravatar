@@ -1,3 +1,6 @@
+[![Total Downloads](https://poser.pugx.org/mikielis/gravatar/d/total.svg)](https://packagist.org/packages/mikielis/gravatar)
+[![Latest Stable Version](https://poser.pugx.org/mikielis/gravatar/v/stable.svg)](https://packagist.org/packages/mikielis/gravatar)
+
 # Gravatar for Laravel 5
 
 
